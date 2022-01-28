@@ -1,4 +1,4 @@
-package one.digitalInnovation.PersonApi.service.controller;
+package one.digitalInnovation.PersonApi.controller;
 
 
 import one.digitalInnovation.PersonApi.dto.MessageResponseDTO;
@@ -37,6 +37,13 @@ public class PersonController {
     @GetMapping("/{id}")
     public PersonDTO findById(@PathVariable Long id) throws PersonNotFoundException {
         return personService.findById(id);
+    }
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void delete(@PathVariable Long id) throws PersonNotFoundException {
+
+        personService.delete(id);
+
     }
 
 }
