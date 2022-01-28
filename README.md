@@ -1,7 +1,7 @@
 <h1><b>PersonApi - Desafio-Dio</b></h1>
 
 <p>Este projeto teve como objetivo o desenvolvimento
-de um sitema de gestão de pessoas em API Rest
+de um sistema de gestão de pessoas em API Rest
 com Spring Boot.</p>
 <p>Neste projeto foi ultilizado a linguagem Java na versão 11 com
 Maven(3.8.4) gerenciando os pacotes na IDE intelij</p>
